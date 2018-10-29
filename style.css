@@ -1,0 +1,128 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+    width: 1366px;
+}
+
+.header-bgr {
+    width: 1280px;
+    height: 323px;
+    background-color: #445162;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    display: block;
+	position: relative;
+}
+
+.header-h {
+    font-size: 60px;
+    left: 50px;
+    top: 50px;	
+}
+
+.header__list-item {
+	position: relative;
+}
+
+.header__list-item:before {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 19px;
+	background-image: url('./img/check-icon.svg');
+	background-repeat: no-repeat;
+}
+
+.header-bgr ul{
+    list-style: none;
+    left: 36px;
+    top: 51px;
+	
+}
+.header-img {
+    background-color: #ffffff;
+    width: 469px;
+    height: 214px;
+	right: 50px;
+    bottom: 59px;
+	
+}
+.article-about-product{
+	
+	width: 1280px;
+    background-color: #ffffff;
+    width: 649px;
+    text-align: left;
+    display: block;
+	position: relative;
+}
+.article-about-product h2{
+    color:  #445161;
+    font-size: 30px;
+    line-height: 36px;
+	left: 50px;
+    top:49px;
+	
+}
+.article-about-product p{
+    color:  #333333;
+    font-size: 16px;
+    line-height: 24px;
+	left: 50px;
+    top:49px;
+
+}
+.about-img {
+    background-color: #445161;
+    width: 430px;
+    height: 245px;
+    left: 62,5%;
+    top: 1,7%;
+
+}
+.section-pluses-product{
+    width: 1280px;
+    height: 414px;
+    background-color: #f5f5f5;
+    top:100px;
+    position: relative;
+    display: flex;
+}
+.section-pluses-product h2{
+    color:  #445161;
+    font-size: 30px;
+    position: absolute;
+    top:29px;
+    left:464px;
+    
+}
+.section-pluses-product p{
+    color:  #333333;
+    font-size: 16px;
+    text-align: left;
+    width: 526px;
+    left: 91px;
+    top:100px;
+    position: relative;
+
+}
+/*
+.pluses-item1 p{
+    left: 91px;
+    top:100px;
+    position: relative;
+
+    
+}
+.pluses-item2 {
+/*
+    width: 526px;
+    position: relative;
+
+    top:874px;
+    right:73px;   
+}
+*/
